@@ -4,7 +4,6 @@ from datetime import datetime
 
 app = FastAPI()
 
-# データモデルの定義（ここがプロっぽいポイント）
 # 現場名、担当者、内容、工数を定義する
 class DailyReport(BaseModel):
     site_name: str
